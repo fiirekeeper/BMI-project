@@ -1,5 +1,5 @@
-let weight = 80;
-let height = 175;
-let gender = 'M';
+let weight = parseInt (prompt('Enter your weight'));
+let height = parseInt (prompt('Enter your height'));
+let gender = prompt('Enter your gender as M or F');
 let bmiCategory;
 
