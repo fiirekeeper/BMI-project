@@ -15,4 +15,4 @@ let bmi = weight / height ** 2;
 
 //OUTPUT
 
-console.log(bmi);
+console.log(`Your BMI is: ${bmi}`);
