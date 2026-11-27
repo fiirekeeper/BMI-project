@@ -10,9 +10,17 @@ let bmiCategory;
 
 let bmi = weight / height ** 2;
 
-
+if (bmi < 18.5 ) {
+    bmiCategory = 'Underweight'
+} else if (bmi >= 18.5 && bmi < 25) {
+    bmiCategory = 'Healthy'
+} else if (bmi >= 25 && bmi < 30) {
+    bmiCategory = 'Overweight'
+} else {
+    bmiCategory = 'Obese'
+}
 
 
 //OUTPUT
 
-console.log(`Your BMI is: ${bmi}`);
+console.log(`Your BMI is: ${bmi} which is ${bmiCategory}`);
