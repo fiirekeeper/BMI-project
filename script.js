@@ -23,4 +23,6 @@ if (bmi < 18.5 ) {
 
 //OUTPUT
 
-console.log(`Your BMI is: ${bmi} which is ${bmiCategory}`);
+let message = gender === 'M' ? `Hey bro, your BMI is: ${bmi} which is ${bmiCategory}` : `Hey sis, your BMI is: ${bmi} which is ${bmiCategory}`
+
+console.log(message);
